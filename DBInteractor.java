@@ -208,7 +208,7 @@ public class DBInteractor
         {
             System.out.print(metadata.getColumnName(i) + ", ");
         }
-        System.out.println();
+        System.out.println("\n");
 
         // Print values
         while(rs.next())
